@@ -18,7 +18,8 @@ body {
     padding: 0px;
 }
 
-/*why are there padding pixels on the top? why is the gradient not working? add designed seperator... fix home sprite ...fix DOHOT */
+/*why are there padding pixels on the top? why is the gradient not working? add designed seperator... fix home sprite ...fix DOHOT...fix left align readmore
+cancel last child border in nav, last child margin in tabs*/
 
 #searchbox {
     position: absolute;
@@ -137,8 +138,40 @@ text-decoration: underline;
 
 #tab1 {
     background-image: url(/images/1908364606615453350.JPG);
-    width : 293px;
-    height : 355px;
+    
 }
 
+.tab {
+    width : 293px;
+    height : 355px;
+    position: relative;
+    border-radius: 0px 0px 30px 0px;
+    float: right;
+   margin-left: 10px;
+}
 
+.tab:last-child {margin-left: 0px;}
+
+.tabtext {
+    color: white;
+    font-size: 13px;
+    background-color: rgba(121, 121, 121, 0.9);
+    position: absolute;
+    top: 228px;
+    right: 10px;
+    left: 30px;
+    padding: 10px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.tabtext p, .tabtext h3 {
+    margin: 0px;
+    
+}
+
+.readmorelink {
+    text-align: left;
+    color: white;
+}
+
+span.alignleft {text-align:left};
