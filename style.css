@@ -194,15 +194,26 @@ container1::after {
 #container2 {
     width:900px;
     height:216px;
-    background-color: lightcoral;
     position: relative;
-    top: 20px;
+    top: 50px;
     margin-left:auto;
     margin-right:auto;
 }
 
 .lowertab {
+    background-image: url(/images/small_cube_bg.png);
+       width : 292px;
+        height : 216px;
+        position: relative;
+        float: right;
+       margin-left: 10px;
+    }
 
-
+.lowertab h3 {
+    font-size: 14px;
+    color: #575757;
+    text-align:center;
 }
+
+
 
