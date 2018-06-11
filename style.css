@@ -182,4 +182,27 @@ text-decoration: underline;
     color: white;
 }
 
-span.alignleft {text-align:left};
+span.alignleft {text-align:left;}
+
+container1::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#container2 {
+    width:900px;
+    height:216px;
+    background-color: lightcoral;
+    position: relative;
+    top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.lowertab {
+
+
+}
+
