@@ -180,6 +180,8 @@ text-decoration: underline;
 .readmorelink {
     text-align: left;
     color: white;
+    float: left;
+
 }
 
 span.alignleft {text-align:left;}
@@ -215,5 +217,15 @@ container1::after {
     text-align:center;
 }
 
+.lowertab img {
+    margin-right: 20px;
+    margin-top: 15px;
+}
 
+.lowertab a {
+    color: #575757;
+    float: left;
+    padding: 13px;
+    font-size: 12px;
+}
 
