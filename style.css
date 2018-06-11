@@ -158,7 +158,7 @@ text-decoration: underline;
    margin-left: 10px;
 }
 
-.tab:last-child {margin-left: 0px;}
+.tab:last-child, .lowertab:last-child {margin-left: 0px;}
 
 .tabtext {
     color: white;
@@ -184,7 +184,6 @@ text-decoration: underline;
 
 }
 
-span.alignleft {text-align:left;}
 
 container1::after {
     content: "";
@@ -228,4 +227,30 @@ container1::after {
     padding: 13px;
     font-size: 12px;
 }
+
+#lowertab3 img {
+    max-height: 140px;
+    float:left;
+    margin:20px;
+}
+
+#lowertab3 ul {
+    list-style: none;
+    float: right;
+}
+
+#lowertab3 a {
+    padding: 5px;
+    margin: 0px;
+}
+
+#bottomstripe {
+    width:100%;
+    height: 38px;
+    position: fixed;
+    bottom: 0px;
+    background-color:  #909090;
+}
+
+
 
