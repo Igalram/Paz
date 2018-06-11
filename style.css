@@ -67,7 +67,7 @@ body {
 
 }
 
-#navmenu>a:hover, #dropdowncontent>a:hover {
+#navmenu a:hover, #dropdowncontent>a:hover {
 color: rgb(52, 41, 100);
 text-decoration: underline;
 }
@@ -124,5 +124,21 @@ text-decoration: underline;
     display: block;
 }
 
+#container1 {
+    display: block;
+    position: relative;
+    top: 20px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 355px;
+
+}
+
+#tab1 {
+    background-image: url(/images/1908364606615453350.JPG);
+    width : 293px;
+    height : 355px;
+}
 
 
