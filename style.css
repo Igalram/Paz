@@ -141,6 +141,14 @@ text-decoration: underline;
     
 }
 
+#tab2 {
+    background-image: url(/images/Picture-046410251500.JPG);
+}
+
+#tab3 {
+    background-image: url(/images/291_354410564000.JPG);
+}
+
 .tab {
     width : 293px;
     height : 355px;
