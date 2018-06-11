@@ -18,7 +18,7 @@ body {
     padding: 0px;
 }
 
-/*why are there padding pixels on the top? why is the gradient not working? add designed seperator... fix home sprite*/
+/*why are there padding pixels on the top? why is the gradient not working? add designed seperator... fix home sprite ...fix DOHOT */
 
 #searchbox {
     position: absolute;
@@ -59,7 +59,7 @@ body {
     margin: 0 143px 0 0;
 }
 
-#navmenu>a {
+#navmenu a {
     font-size: 15px;
     padding-left: 12px;
     padding-right: 12px;
@@ -67,7 +67,7 @@ body {
 
 }
 
-#navmenu>a:hover {
+#navmenu>a:hover, #dropdowncontent>a:hover {
 color: rgb(52, 41, 100);
 text-decoration: underline;
 }
@@ -91,24 +91,38 @@ text-decoration: underline;
 
 .dropdown {
     position: relative;
+    display: inline-block;
 }
+
+
+
 #dropdowncontent {
-    display: block;
+    display: none;
     position: absolute;
     background-color: #909090;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 
 }
 
 #dropdowncontent>a {
+  
     display:block;
     color: white;
     font-size: 15px;
     padding: 6px;
+    border-bottom: solid lightgray 1px;
+
 
 }
 
+#dropdowncontent>a:hover {
+    background-color: lightgray;
+}
 
+.dropdown:hover #dropdowncontent {
+    display: block;
+}
 
 
 
