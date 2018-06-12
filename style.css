@@ -4,8 +4,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     padding: 0px;
+    margin: 0px;
 }
 
+#headerstripe {
+    width: 100%;
+    background-color:#909090;
+    height: 105px;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
 #header {
     width:900px;
     height: 105px;
@@ -64,7 +74,7 @@ cancel last child border in nav, last child margin in tabs*/
     font-size: 15px;
     padding-left: 12px;
     padding-right: 12px;
-    border-left: solid white 1px;
+    border-left: solid rgb(160, 160, 160) 1px;
 
 }
 
@@ -76,8 +86,7 @@ text-decoration: underline;
 
 #homesprite {
     width: 17px;
-    height: 17px;
-    background: url(img_navsprites.gif) 0 0;
+    
 
 }
 
@@ -87,7 +96,7 @@ text-decoration: underline;
     height: 93px;
     position: absolute;
     bottom: -20px;
-    right: -8px;
+    right: -1px;
 }
 
 .dropdown {
