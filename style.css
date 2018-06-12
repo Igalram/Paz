@@ -305,6 +305,88 @@ container1::after {
     border-left: none;
 }
 
+#content {
+    width:900px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#content1 {
+    width:122px;
+   
+    float: right;
+    height: 400px;
+    margin-left: 20px;
+}
+
+#content2 {
+    width:440px;
+   
+    float: right;
+    height: 400px;
+    margin-left: 20px;
+}
+
+#content3 {
+    width:292px;
+    background-color: rgb(214, 214, 214);
+    float: right;
+    height: 400px;
+}
+
+#sidemenuitem {
+    position: relative;
+    background: linear-gradient(rgb(214, 214, 214), rgb(122, 122, 122));
+    top: 40px;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:black;
+
+}
+
+#treelink {
+    color:black;
+    margin-top: 40px;
+    font-size:12px;
+}
+
+#content2 h1 {
+    font-size:20px;
+    border-bottom: solid lightgray 2px;
+    padding: 5px;
+}
+
+#contactcontainer {
+    width: 100%;
+    background-image: url(/images/small_cube_bg.png);
+    background-repeat: no-repeat;
+    background-size: 440px 100px;
+    float: right;
+}
+
+.column20 {
+    width: 20%;
+    float: right; 
+}
+
+column80 {
+    width: 80%;
+    float:right;
+}
+
+.formbox {
+    width: 440px;
+}
+
+.formbox::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 
 
