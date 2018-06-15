@@ -9,7 +9,8 @@ body {
 
 #headerstripe {
     width: 100%;
-    background-color:#909090;
+   /* background-color:#909090; */
+   background: linear-gradient(#909090, rgb(177, 177, 177));
     height: 105px;
     top: 0;
     margin: 0px;
@@ -19,7 +20,7 @@ body {
 #header {
     width:900px;
     height: 105px;
-    background-color: #909090;
+    background: linear-gradient(#909090, rgb(177, 177, 177));
     margin-left: auto;
     margin-right: auto;
     top:0px;
@@ -109,6 +110,7 @@ text-decoration: underline;
 #dropdowncontent {
     display: none;
     position: absolute;
+    top:32px;
     background-color: #909090;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
@@ -147,16 +149,15 @@ text-decoration: underline;
 }
 
 #tab1 {
-    background-image: url(/images/1908364606615453350.JPG);
-    
+    background-image: url("images/1908364606615453350.JPG");
 }
 
 #tab2 {
-    background-image: url(/images/Picture-046410251500.JPG);
+    background-image: url("images/Picture-046410251500.jpg");
 }
 
 #tab3 {
-    background-image: url(/images/291_354410564000.JPG);
+    background-image: url("images/291_354410564000.jpg");
 }
 
 .tab {
@@ -219,7 +220,7 @@ container1::after {
 }
 
 .lowertab {
-    background-image: url(/images/small_cube_bg.png);
+    background-image: url("images/small_cube_bg.png");
        width : 293px;
         height : 216px;
         position: relative;
@@ -329,7 +330,6 @@ container1::after {
 
 #content3 {
     width:292px;
-    background-color: rgb(214, 214, 214);
     float: right;
     height: 400px;
 }
@@ -360,25 +360,41 @@ container1::after {
 }
 
 #contactcontainer {
-    width: 100%;
-    background-image: url(/images/small_cube_bg.png);
+    width: 420px;
+    height: 387px;
+    background-image: url("images/cube_bg.png");
     background-repeat: no-repeat;
-    background-size: 440px 100px;
+    background-size: 420px 387px;
     float: right;
+    padding: 0px;
+    margin: 0px;
+
 }
 
 .column20 {
-    width: 20%;
-    float: right; 
+    width: 30%;
+    float: right;
 }
 
 column80 {
-    width: 80%;
+    width: 70%;
     float:right;
+
+}
+
+.column100 {
+    width: 100%;
+    height: auto;
+    
 }
 
 .formbox {
-    width: 440px;
+    width: 290px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.formrow {
+    padding-bottom: 10px;
 }
 
 .formbox::after {
@@ -387,7 +403,58 @@ column80 {
     display: table;
 }
 
+.pbold {
+    font-weight: bold;
+    color: gray;
+    padding-right: 15px;
+}
 
+.psmall {
+    font-size: 1em;
+    color: gray;
+    padding-right: 10px;
+    margin-top:0;
+
+}
+
+#submitbutton {
+    background-color: blue;
+    color: white;
+    float: left;
+}
+
+#textarea1 {
+    width: 249px;
+    height: 70px;
+}
+
+#smallcontainer1
+
+{
+ 
+    width: 292px;
+    height: 175px;
+    background-image: url("images/cube_bg.png");
+    background-repeat: no-repeat;
+    background-size: 292px 175px;
+    float: right;
+    padding: 0px;
+    margin-top: 115px;
+}
+
+
+
+
+#content3 h1 {
+    font-size:20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+#content3 .pbold {padding: 0px
+margin-right: 20px;}
 
 
 
